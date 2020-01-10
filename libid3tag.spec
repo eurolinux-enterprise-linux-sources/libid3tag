@@ -1,6 +1,6 @@
 Name:           libid3tag
 Version:        0.15.1b
-Release:        17%{?dist}
+Release:        15%{?dist}
 Summary:        ID3 tag manipulation library
 Group:          System Environment/Libraries
 License:        GPLv2+
@@ -74,12 +74,6 @@ install -Dpm 644 %{name}.pc $RPM_BUILD_ROOT%{_libdir}/pkgconfig/id3tag.pc
 
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.15.1b-17
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.15.1b-16
-- Mass rebuild 2013-12-27
-
 * Mon Mar 25 2013 Hans de Goede <hdegoede@redhat.com> - 0.15.1b-15
 - Run autoreconf for aarch64 support (rhbz#925768)
 - Make build honor RPM_OPT_FLAGS
